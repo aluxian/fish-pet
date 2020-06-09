@@ -1,5 +1,5 @@
-bind \cp pet_save
-bind \cs pet_select
+bind \cp __pet_save
+bind \cs __pet_select
 
 set -l name (basename (status -f) .fish){_uninstall}
 
